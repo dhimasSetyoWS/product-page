@@ -24,12 +24,17 @@ body {
 .container header ul li a {
   margin-left: 20px;
   /* border: 1px solid black; */
-  color: black;
+  color: black !important;
   transition-property: color, background-color;
   transition-duration: 0.4s;
 }
+
+.container header ul li a.nyala {
+  color: whitesmoke !important;
+  background-color: #a31d1d;
+}
 .container header ul li a:hover {
-  color: whitesmoke;
+  color: whitesmoke !important;
   background-color: #a31d1d;
 }
 
@@ -57,8 +62,44 @@ header {
   animation-duration: 1.5s;
 }
 
-@media (min-width: 1024px) {
-  body {
-    overflow-y: hidden;
-  }
+/* Product section */
+.kartu-product {
+  background: hsla(29, 91%, 78%, 1);
+
+  background: linear-gradient(
+    225deg,
+    hsla(29, 91%, 78%, 1) 0%,
+    hsla(0, 78%, 83%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    225deg,
+    hsla(29, 91%, 78%, 1) 0%,
+    hsla(0, 78%, 83%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    225deg,
+    hsla(29, 91%, 78%, 1) 0%,
+    hsla(0, 78%, 83%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FAC594", endColorstr="#F5B0B0", GradientType=1 );
+}
+
+.kartu-product .my-3 h2,
+p {
+  font-weight: 600;
+  color: #2c3930;
+}
+
+.headline-main {
+  animation: zoomIn;
+  animation-duration: 1.5s;
+}
+
+.kartu {
+  animation: fadeInUp;
+
+  animation-duration: 1.5s;
 }
