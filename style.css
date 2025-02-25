@@ -1,5 +1,4 @@
 body {
-  overflow-y: hidden;
   background: hsla(23, 100%, 90%, 1);
 
   background: linear-gradient(
@@ -56,4 +55,10 @@ body {
 header {
   animation: fadeInDown;
   animation-duration: 1.5s;
+}
+
+@media (min-width: 1024px) {
+  body {
+    overflow-y: hidden;
+  }
 }
