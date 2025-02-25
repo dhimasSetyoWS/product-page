@@ -1,0 +1,59 @@
+body {
+  overflow-y: hidden;
+  background: hsla(23, 100%, 90%, 1);
+
+  background: linear-gradient(
+    180deg,
+    hsla(23, 100%, 90%, 1) 0%,
+    hsla(0, 26%, 96%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    180deg,
+    hsla(23, 100%, 90%, 1) 0%,
+    hsla(0, 26%, 96%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    180deg,
+    hsla(23, 100%, 90%, 1) 0%,
+    hsla(0, 26%, 96%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFE0CD", endColorstr="#F8F3F3", GradientType=1 );
+}
+.container header ul li a {
+  margin-left: 20px;
+  /* border: 1px solid black; */
+  color: black;
+  transition-property: color, background-color;
+  transition-duration: 0.4s;
+}
+.container header ul li a:hover {
+  color: whitesmoke;
+  background-color: #a31d1d;
+}
+
+.btn {
+  background-color: #f16565;
+  color: whitesmoke !important;
+  transition: background-color 0.4s;
+}
+.btn:hover {
+  background-color: #a31d1d;
+}
+
+.product-desc {
+  animation: fadeInLeft;
+  animation-duration: 1.5s;
+}
+
+.product-img {
+  animation: fadeInUp;
+  animation-duration: 1.5s;
+}
+
+header {
+  animation: fadeInDown;
+  animation-duration: 1.5s;
+}
