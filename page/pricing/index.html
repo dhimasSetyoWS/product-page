@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Produk</title>
+    <!-- CSS Framework -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<style>
+    body {
+        overflow-x: hidden;
+    }
+
+    .kartu-product {
+        border: none;
+    }
+</style>
+
+<body>
+    <!-- Nav -->
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+            <a href="/"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                    class="bi bi-bucket-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M2.522 5H2a.5.5 0 0 0-.494.574l1.372 9.149A1.5 1.5 0 0 0 4.36 16h7.278a1.5 1.5 0 0 0 1.483-1.277l1.373-9.149A.5.5 0 0 0 14 5h-.522A5.5 5.5 0 0 0 2.522 5m1.005 0a4.5 4.5 0 0 1 8.945 0z" />
+                </svg>
+                <span class="fs-4 ms-3">Produk</span>
+            </a>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="../../index.html" class="nav-link" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="../product/" class="nav-link">Product</a></li>
+                <li class="nav-item"><a href="../pricing/" class="nav-link nyala">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            </ul>
+        </header>
+    </div>
+    <!-- Content -->
+    <main>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="animate__animated animate__fadeInDown display-4 fw-bold">Go purchase our product</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-5 py-5">
+            <div class="row" id="price-card">
+                <div class="col-12 col-md-6 text-center my-3">
+                    <div class="kartu-product animate__animated animate__fadeInLeft card mb-4 rounded-3 shadow">
+                        <div class="mt-5">
+                            <h4 class="my-0 fw-bold">Product 1</h4>
+                        </div>
+                        <div class="card-body">
+                            <img class="mt-3" src="https://dummyimage.com/400x400/000/fff" alt="">
+                            <h1 class="mt-3 card-title pricing-card-title">Rp.{harga}</h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Product Description</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 text-center my-3">
+                    <div class="kartu-product animate__animated animate__fadeInRight card mb-4 rounded-3 shadow">
+                        <div class="mt-5">
+                            <h4 class="my-0 fw-bold">Product 2</h4>
+                        </div>
+                        <div class="card-body">
+                            <img class="mt-3" src="https://dummyimage.com/400x400/000/fff" alt="">
+                            <h1 class="mt-3 card-title pricing-card-title">Rp.{harga}</h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Product Description</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Additional JS Framework -->
+    <script src="js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
